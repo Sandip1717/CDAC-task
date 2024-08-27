@@ -1,6 +1,6 @@
 ---
 - name: Install Apache HTTPD service on Ubuntu
-  hosts: webservers
+  hosts: http_service
   become: yes
   tasks:
     - name: Update apt cache
